@@ -33,7 +33,7 @@ main{
 }
 
 .mid{
-    height: 30vh;
+    height: 35vh;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -41,13 +41,31 @@ main{
 
 .myForms{
     display: flex;
-    gap: 35px;
+    gap: 45px;
+    margin-top: 10px;
+}
+
+form{
+    font-size: 50%;
+    font-weight: bolder;
+}
+
+input{
+    border: 2px solid #E5E7EB;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border-color: blue;
+    box-shadow: rgb(105, 105, 163);
 }
 
 .end{
-    height: 35vh;
+    height: 30vh;
     background-color: #e9f5f8fe;
     padding-left: 20px;
+    border-top: 2px solid rgb(112, 197, 246);
 }
 
 button{
