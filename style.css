@@ -24,13 +24,17 @@ main{
     justify-content: center;
     align-items: center;
     background-color: black;
+    opacity: 0.4;
     width: 100%;
     height: 20vh;
 }
 
 .odin-txt{
     color: white;
+    font-family: my-cool-font;
+    font-size: 4rem;
 }
+
 
 .right{
     width: 60vw;
