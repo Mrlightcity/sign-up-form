@@ -13,6 +13,24 @@ main{
     width: 40vw;
 }
 
+.right{
+    width: 60vw;
+}
+
+.top{
+    height: 35vh;
+    background-color: #e9f5f8fe;
+}
+
+.mid{
+    height: 30vh;
+}
+
 .myForms{
     display: flex;
+}
+
+.end{
+    height: 35vh;
+    background-color: #e9f5f8fe;
 }
