@@ -6,3 +6,9 @@
 main{
     display: flex;
 }
+
+.left {
+    background: no-repeat center/100% url(./assets/nature\ .jpg);
+    height: 100vh;
+    width: 40vw;
+}
