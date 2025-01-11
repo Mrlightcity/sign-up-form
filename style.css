@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face{
@@ -23,8 +24,12 @@ main{
 }
 
 .top{
+    display: flex;
+    align-items: flex-end;
     height: 35vh;
     background-color: #e9f5f8fe;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .mid{
