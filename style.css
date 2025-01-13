@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
+    border-color: none;
 }
 
 @font-face{
@@ -70,6 +70,11 @@ form{
     font-weight: bolder;
 }
 
+input:focus{
+    box-shadow:blue 2px 2px 4px;
+    border: 1px solid blue;
+}
+
 input{
     border: 2px solid #E5E7EB;
     margin-bottom: 10px;
@@ -78,14 +83,12 @@ input{
     width: 200px;
 }
 
-input#password:invalid,
-input#confirm_password:invalid{
-    border-color: 1px solid red;
-}
 
-input:focus{
-    border: 2px solid green;
-    box-shadow: rgb(105, 105, 163);
+input#password:invalid{
+    border: 2px solid red;
+}
+input#confirm_password:invalid{
+    border: 2px solid red;
 }
 
 .end{
