@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 @font-face{
@@ -37,6 +38,7 @@ main{
 
 
 .right{
+    --my-background-color: #fafafa;
     width: 60vw;
 }
 
@@ -44,7 +46,7 @@ main{
     display: flex;
     align-items: flex-end;
     height: 35vh;
-    background-color: #e9f5f8fe;
+    background-color: var(--my-background-color);
     padding-left: 20px;
     padding-bottom: 30px;
 }
@@ -71,6 +73,8 @@ input{
     border: 2px solid #E5E7EB;
     margin-bottom: 10px;
     border-radius: 5px;
+    height: 23px;
+    width: 200px;
 }
 
 input#password:invalid,
@@ -85,9 +89,9 @@ input :focus{
 
 .end{
     height: 30vh;
-    background-color: #e9f5f8fe;
+    background-color: var(--my-background-color);
     padding-left: 20px;
-    border-top: 2px solid rgb(112, 197, 246);
+    border-top: 2px solid #d6d6d6;
 }
 
 button{
