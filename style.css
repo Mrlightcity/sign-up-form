@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border-color: none;
+    font-family: sans-serif;
 }
 
 @font-face{
@@ -46,6 +47,9 @@ main{
     color: white;
     margin-bottom: 20px;
     font-size: 0.5rem;
+}
+span{
+    margin-left: 3px;
 }
 
 .footer a[href]{
@@ -118,6 +122,8 @@ button{
     color: white;
     font-size: 0.8rem;
     border-radius: 5px;
+    border: 1px solid #596D48;
+    box-shadow: #d6d6d6 2px 2px 3px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 30px;
