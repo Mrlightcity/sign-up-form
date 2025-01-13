@@ -24,40 +24,41 @@
                       <br> Sign up <em>now</em> to get started. 
                       <br><br>You <em>know</em> you want to.</h4>
             </div>
-            <div class="mid">
-                <h4>Let's do this!</h4>
-                <div class="myForms">
-                    <form action="#" method="post">
+            <form action="#" method="post" class="main-form">
+                <div class="mid">
+                    <h1>Let's do this!</h1>
+                    <div class="myForms">
                         <div>
-                            <label for="first_name">FIRST NAME</label>
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                            </div>
+                            <input type="text" id="first_name" name="first_name" placeholder="Thor">
+    
+                            <div><label for="email">EMAIL</label></div>
+                            <input type="email" id="email" name="email">
+    
+                            <div><label for="password">PASSWORD</label></div>
+                            <input type="password" id="password" name="password" minlength="4" maxlength="7" required>
                         </div>
-                        <input type="text" id="first_name" name="first_name" placeholder="Thor">
-
-                        <div><label for="email">EMAIL</label></div>
-                        <input type="email" id="email" name="email">
-
-                        <div><label for="password">PASSWORD</label></div>
-                        <input type="password" id="password" name="password" minlength="4" maxlength="7" required>
-                    </form>
-
-                    <form action="#" method="post">
                         <div>
-                            <label for="last_name">LAST NAME</label>
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                            </div>
+                            <input type="text" id="last_name" name="last_name" placeholder="Odioson">
+    
+                            <div><label for="phone_number">PHONE NUMBER</label></div>
+                            <input type="tel" id="phone_number" name="phone_number">
+    
+                            <div><label for="confirm_password">CONFIRM PASSWORD</label></div>
+                            <input type="password" id="confirm_password" name="confirm_password" minlength="4" maxlength="7" required>
                         </div>
-                        <input type="text" id="last_name" name="last_name" placeholder="Odioson">
-
-                        <div><label for="phone_number">PHONE NUMBER</label></div>
-                        <input type="tel" id="phone_number" name="phone_number">
-
-                        <div><label for="confirm_password">CONFIRM PASSWORD</label></div>
-                        <input type="password" id="confirm_password" name="confirm_password" minlength="4" maxlength="7" required>
-                    </form>
+                    </div>
                 </div>
-            </div>
-            <div class="end">
-                <button class="btn" type="submit">Create Account</button>
-                <div class="txt">Already have an account? Log in</div>
-            </div>
+                <div class="end">
+                    <button class="btn" type="submit">Create Account</button>
+                    <div class="txt">Already have an account? <a href="#">Log in</a></div>
+                </div> 
+            </form>
         </div>
     </main>
 </body>
