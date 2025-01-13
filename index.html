@@ -47,10 +47,10 @@
                             <input type="text" id="last_name" name="last_name" placeholder="Odioson">
     
                             <div><label for="phone_number">PHONE NUMBER</label></div>
-                            <input type="tel" id="phone_number" name="phone_number">
+                            <input type="tel" id="phone_number" name="phone_number" pattern="/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.+\W)(?!.* ).{7,12}$/" required>
     
                             <div><label for="confirm_password">CONFIRM PASSWORD</label></div>
-                            <input type="password" id="confirm_password" name="confirm_password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" pattern="/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.+\W)(?!.* ).{7,12}$/" required>
                         </div>
                     </div>
                 </div>
