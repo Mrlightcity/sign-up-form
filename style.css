@@ -83,8 +83,8 @@ input#confirm_password:invalid{
     border-color: 1px solid red;
 }
 
-input :focus{
-    border-color: blue;
+input:focus{
+    border: 2px solid green;
     box-shadow: rgb(105, 105, 163);
 }
 
